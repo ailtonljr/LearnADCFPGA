@@ -2,7 +2,7 @@ set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_TOOL_NAM
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_TOOL_VERSION "21.1"
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "SimpleADC" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../SimpleADC.sopcinfo"]
-set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name SLD_INFO "QSYS_NAME SimpleADC HAS_SOPCINFO 1 GENERATION_ID 1654282319"
+set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name SLD_INFO "QSYS_NAME SimpleADC HAS_SOPCINFO 1 GENERATION_ID 1654347090"
 set_global_assignment -library "SimpleADC" -name MISC_FILE [file join $::quartus(qip_path) "../SimpleADC.cmp"]
 set_global_assignment -library "SimpleADC" -name SLD_FILE [file join $::quartus(qip_path) "SimpleADC.debuginfo"]
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_TARGETED_DEVICE_FAMILY "Cyclone IV E"
@@ -15,10 +15,10 @@ set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONEN
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_REPORT_HIERARCHY "On"
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_INTERNAL "Off"
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_VERSION "MS4w"
-set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTY1NDI4MjMxOQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTY1NDM0NzA5MA==::QXV0byBHRU5FUkFUSU9OX0lE"
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ"
-set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::RVA0Q0U2RTIyQTc=::QXV0byBERVZJQ0U="
-set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::RVA0Q0UyMkYxN0M2::QXV0byBERVZJQ0U="
+set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Ng==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
 set_global_assignment -entity "SimpleADC" -library "SimpleADC" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
