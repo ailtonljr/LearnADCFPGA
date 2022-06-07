@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2022.06.04.09:51:33"
- outputDirectory="C:/Users/ailto/Documents/git/LearnADCFPGA/SimpleADC/">
+ date="2022.06.06.19:05:29"
+ outputDirectory="C:/Users/admg5/git/LearnADCFPGA/SimpleADC/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -85,13 +85,13 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="SimpleADC:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=EP4CE22F17C6,AUTO_DEVICE_FAMILY=Cyclone IV E,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1654347090,AUTO_UNIQUE_ID=(altera_up_avalon_adc_mega:18.0:AUTO_CLK_CLOCK_RATE=0,AUTO_DEVICE_FAMILY=Cyclone IV E,board=DE0-Nano,board_rev=Autodetect,max10plldivby=1,max10pllmultby=1,numch=8,numch_=8,sclk_freq=3.2,sys_clk_freq=50,tsclk=16)"
+   parameterizationKey="SimpleADC:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=EP4CE22F17C6,AUTO_DEVICE_FAMILY=Cyclone IV E,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1654553125,AUTO_UNIQUE_ID=(altera_up_avalon_adc_mega:18.0:AUTO_CLK_CLOCK_RATE=0,AUTO_DEVICE_FAMILY=Cyclone IV E,board=DE0-Nano,board_rev=Autodetect,max10plldivby=1,max10pllmultby=1,numch=8,numch_=8,sclk_freq=3.2,sys_clk_freq=50,tsclk=16)"
    instancePathKey="SimpleADC"
    kind="SimpleADC"
    version="1.0"
    name="SimpleADC">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
-  <parameter name="AUTO_GENERATION_ID" value="1654347090" />
+  <parameter name="AUTO_GENERATION_ID" value="1654553125" />
   <parameter name="AUTO_DEVICE" value="EP4CE22F17C6" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
   <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
@@ -100,19 +100,19 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
   <generatedFiles>
    <file
-       path="C:/Users/ailto/Documents/git/LearnADCFPGA/SimpleADC/synthesis/SimpleADC.v"
+       path="C:/Users/admg5/git/LearnADCFPGA/SimpleADC/synthesis/SimpleADC.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:/Users/ailto/Documents/git/LearnADCFPGA/SimpleADC/synthesis/submodules/altera_up_avalon_adv_adc.v"
+       path="C:/Users/admg5/git/LearnADCFPGA/SimpleADC/synthesis/submodules/altera_up_avalon_adv_adc.v"
        type="VERILOG" />
    <file
-       path="C:/Users/ailto/Documents/git/LearnADCFPGA/SimpleADC/synthesis/submodules/SimpleADC_adc_mega_0.v"
+       path="C:/Users/admg5/git/LearnADCFPGA/SimpleADC/synthesis/submodules/SimpleADC_adc_mega_0.v"
        type="VERILOG" />
   </childGeneratedFiles>
   <sourceFiles>
-   <file path="C:/Users/ailto/Documents/git/LearnADCFPGA/SimpleADC.qsys" />
+   <file path="C:/Users/admg5/git/LearnADCFPGA/SimpleADC.qsys" />
   </sourceFiles>
   <childSourceFiles>
    <file
@@ -137,13 +137,13 @@
    <message level="Debug" culprit="SimpleADC"><![CDATA["<b>SimpleADC</b>" reuses <b>altera_up_avalon_adc_mega</b> "<b>submodules/SimpleADC_adc_mega_0</b>"]]></message>
    <message level="Debug" culprit="SimpleADC">queue size: 0 starting:altera_up_avalon_adc_mega "submodules/SimpleADC_adc_mega_0"</message>
    <message level="Info" culprit="adc_mega_0">Starting Generation of ADC Controller for DE-series Board</message>
-   <message level="Info" culprit="adc_mega_0">C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0002_sopcgen/SimpleADC_adc_mega_0.v</message>
+   <message level="Info" culprit="adc_mega_0">C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0002_sopcgen/SimpleADC_adc_mega_0.v</message>
    <message level="Debug">set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files</message>
-   <message level="Debug">Command: C:/intelfpga_lite/21.1/quartus\bin64/quartus_map.exe not_a_project --generate_hdl_interface=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --source=C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v --source=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0003_sopcqmap/ --ini=disable_check_quartus_compatibility_qsys_only=on</message>
-   <message level="Debug">Command took 0.869s</message>
+   <message level="Debug">Command: C:/intelfpga_lite/21.1/quartus\bin64/quartus_map.exe not_a_project --generate_hdl_interface=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --source=C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v --source=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0003_sopcqmap/ --ini=disable_check_quartus_compatibility_qsys_only=on</message>
+   <message level="Debug">Command took 0.780s</message>
    <message level="Debug">set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files</message>
-   <message level="Debug">Command: C:/intelfpga_lite/21.1/quartus\bin64/quartus_map.exe not_a_project --generate_hdl_interface=C:\Users\ailto\AppData\Local\Temp\alt9147_2874229697948802903.dir\0002_sopcgen\SimpleADC_adc_mega_0.v --source=C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v --source=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0004_sopcqmap/ --set=HDL_INTERFACE_INSTANCE_NAME=inst --set=HDL_INTERFACE_INSTANCE_ENTITY=SimpleADC_adc_mega_0 "--set=HDL_INTERFACE_INSTANCE_PARAMETERS=board=S\"DE0-Nano\";board_rev=S\"Autodetect\";tsclk=D\"16\";numch=D\"8\";max10pllmultby=D\"1\";max10plldivby=D\"1\";" --ini=disable_check_quartus_compatibility_qsys_only=on</message>
-   <message level="Debug">Command took 0.836s</message>
+   <message level="Debug">Command: C:/intelfpga_lite/21.1/quartus\bin64/quartus_map.exe not_a_project --generate_hdl_interface=C:\Users\admg5\AppData\Local\Temp\alt9149_7308098906031331810.dir\0002_sopcgen\SimpleADC_adc_mega_0.v --source=C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v --source=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0004_sopcqmap/ --set=HDL_INTERFACE_INSTANCE_NAME=inst --set=HDL_INTERFACE_INSTANCE_ENTITY=SimpleADC_adc_mega_0 "--set=HDL_INTERFACE_INSTANCE_PARAMETERS=board=S\"DE0-Nano\";board_rev=S\"Autodetect\";tsclk=D\"16\";numch=D\"8\";max10pllmultby=D\"1\";max10plldivby=D\"1\";" --ini=disable_check_quartus_compatibility_qsys_only=on</message>
+   <message level="Debug">Command took 0.740s</message>
    <message level="Info" culprit="adc_mega_0"><![CDATA["<b>SimpleADC</b>" instantiated <b>altera_up_avalon_adc_mega</b> "<b>adc_mega_0</b>"]]></message>
   </messages>
  </entity>
@@ -167,10 +167,10 @@
   <parameter name="numch" value="8" />
   <generatedFiles>
    <file
-       path="C:/Users/ailto/Documents/git/LearnADCFPGA/SimpleADC/synthesis/submodules/altera_up_avalon_adv_adc.v"
+       path="C:/Users/admg5/git/LearnADCFPGA/SimpleADC/synthesis/submodules/altera_up_avalon_adv_adc.v"
        type="VERILOG" />
    <file
-       path="C:/Users/ailto/Documents/git/LearnADCFPGA/SimpleADC/synthesis/submodules/SimpleADC_adc_mega_0.v"
+       path="C:/Users/admg5/git/LearnADCFPGA/SimpleADC/synthesis/submodules/SimpleADC_adc_mega_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
@@ -185,13 +185,13 @@
   <messages>
    <message level="Debug" culprit="SimpleADC">queue size: 0 starting:altera_up_avalon_adc_mega "submodules/SimpleADC_adc_mega_0"</message>
    <message level="Info" culprit="adc_mega_0">Starting Generation of ADC Controller for DE-series Board</message>
-   <message level="Info" culprit="adc_mega_0">C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0002_sopcgen/SimpleADC_adc_mega_0.v</message>
+   <message level="Info" culprit="adc_mega_0">C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0002_sopcgen/SimpleADC_adc_mega_0.v</message>
    <message level="Debug">set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files</message>
-   <message level="Debug">Command: C:/intelfpga_lite/21.1/quartus\bin64/quartus_map.exe not_a_project --generate_hdl_interface=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --source=C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v --source=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0003_sopcqmap/ --ini=disable_check_quartus_compatibility_qsys_only=on</message>
-   <message level="Debug">Command took 0.869s</message>
+   <message level="Debug">Command: C:/intelfpga_lite/21.1/quartus\bin64/quartus_map.exe not_a_project --generate_hdl_interface=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --source=C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v --source=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0003_sopcqmap/ --ini=disable_check_quartus_compatibility_qsys_only=on</message>
+   <message level="Debug">Command took 0.780s</message>
    <message level="Debug">set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files</message>
-   <message level="Debug">Command: C:/intelfpga_lite/21.1/quartus\bin64/quartus_map.exe not_a_project --generate_hdl_interface=C:\Users\ailto\AppData\Local\Temp\alt9147_2874229697948802903.dir\0002_sopcgen\SimpleADC_adc_mega_0.v --source=C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v --source=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/Users/ailto/AppData/Local/Temp/alt9147_2874229697948802903.dir/0004_sopcqmap/ --set=HDL_INTERFACE_INSTANCE_NAME=inst --set=HDL_INTERFACE_INSTANCE_ENTITY=SimpleADC_adc_mega_0 "--set=HDL_INTERFACE_INSTANCE_PARAMETERS=board=S\"DE0-Nano\";board_rev=S\"Autodetect\";tsclk=D\"16\";numch=D\"8\";max10pllmultby=D\"1\";max10plldivby=D\"1\";" --ini=disable_check_quartus_compatibility_qsys_only=on</message>
-   <message level="Debug">Command took 0.836s</message>
+   <message level="Debug">Command: C:/intelfpga_lite/21.1/quartus\bin64/quartus_map.exe not_a_project --generate_hdl_interface=C:\Users\admg5\AppData\Local\Temp\alt9149_7308098906031331810.dir\0002_sopcgen\SimpleADC_adc_mega_0.v --source=C:/intelfpga_lite/21.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v --source=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0002_sopcgen/SimpleADC_adc_mega_0.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/Users/admg5/AppData/Local/Temp/alt9149_7308098906031331810.dir/0004_sopcqmap/ --set=HDL_INTERFACE_INSTANCE_NAME=inst --set=HDL_INTERFACE_INSTANCE_ENTITY=SimpleADC_adc_mega_0 "--set=HDL_INTERFACE_INSTANCE_PARAMETERS=board=S\"DE0-Nano\";board_rev=S\"Autodetect\";tsclk=D\"16\";numch=D\"8\";max10pllmultby=D\"1\";max10plldivby=D\"1\";" --ini=disable_check_quartus_compatibility_qsys_only=on</message>
+   <message level="Debug">Command took 0.740s</message>
    <message level="Info" culprit="adc_mega_0"><![CDATA["<b>SimpleADC</b>" instantiated <b>altera_up_avalon_adc_mega</b> "<b>adc_mega_0</b>"]]></message>
   </messages>
  </entity>
