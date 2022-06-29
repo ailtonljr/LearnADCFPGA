@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE22F17) Path("C:/Users/admg5/git/LearnADCFPGA/output_files/") File("LearnADC.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE22F17) Path("D:/Users/admg5/Documents/git/LearnSPI/output_files/") File("LearnADC.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
